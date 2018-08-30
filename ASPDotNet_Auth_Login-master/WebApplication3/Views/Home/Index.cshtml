@@ -1,0 +1,20 @@
+﻿@using WebApplication3.Models
+@model IEnumerable<ApplicationUser>
+
+@{
+    ViewBag.Title = "ASP.NET Identity";
+}
+<script>
+    function openfile(file) {
+        window.location = 'file:///C:\Users\Vokamrecom-PC\Desktop\ASPDotNet_Auth_Login-master\ASPDotNet_Auth_Login-master\Client\src\index.html';
+    }
+    </script>
+<div class="jumbotron">
+    <h1 class="display-4">Хаюшки!)</h1>
+    <p class="lead">Мой первый проект на ASP</p>
+    <hr class="my-4">
+    <p>Можно перейти к списку пользователей</p>
+    <a class="btn btn-primary btn-lg" href="http://localhost:55360/Account/ShowAllUsers" role="button">Смотреть</a>
+    <a class="btn btn-primary btn-lg" href="~/Client/src/index.html" role="button">Порисуем</a>
+  
+</div>
